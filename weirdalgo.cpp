@@ -15,19 +15,23 @@ class weirdalgo{
     }
 
     int calculate(int num){
-        int n = num;
-        cout<<num<<"->";
-        if(num!=1){
-        if(num>-1){
-            if(num%2==0){
-                temp = num/2;
+        int count =0;
+        if(count==0){
+        temp = num;
+        }
+        cout<<temp<<"->";
+        if(temp!=1){
+        if(temp>-1){
+            if(temp%2==0){
+                temp = temp/2;
             }
             else{
-                temp= (num*3)+1;
+                temp= (temp*3)+1;
             }
           }
         return temp;
-        calculate(num);
+        calculate(temp);
+        count++;
         }else{
         return num;
         }
