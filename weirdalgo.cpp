@@ -15,6 +15,7 @@ class weirdalgo{
     }
 
     int calculate(int num){
+<<<<<<< HEAD
         static int count =0;
         if(count==0){
         temp = num;
@@ -22,6 +23,15 @@ class weirdalgo{
         if(temp!=1){
         if(temp>-1){
             cout<<temp<<" ";
+=======
+        int count =0;
+        if(count==0){
+        temp = num;
+        }
+        cout<<temp<<"->";
+        if(temp!=1){
+        if(temp>-1){
+>>>>>>> 047b6d030177a592715a79f12f09217bf2742cde
             if(temp%2==0){
                 temp = temp/2;
             }
@@ -29,8 +39,16 @@ class weirdalgo{
                 temp= (temp*3)+1;
             }
           }
+<<<<<<< HEAD
         count++;
         calculate(temp);
+=======
+        return temp;
+        calculate(temp);
+        count++;
+        }else{
+        return num;
+>>>>>>> 047b6d030177a592715a79f12f09217bf2742cde
         }
         return 1;
     }
