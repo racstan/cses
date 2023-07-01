@@ -20,7 +20,7 @@ class missingnum{
             return count;
         }
         int calculate(int count){
-            if(count!=0){
+            if(count!=0 && count>=2 && count<=(2*10^5)){
                int* tempArr = new int(count);
                for(int i=0;i<(count-1);i++){
                 std::cout<<"Enter element"<<std::endl;
@@ -49,6 +49,7 @@ class missingnum{
             else{
                 return -1;
             }
+            return 0;
         }
 
 };
