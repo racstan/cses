@@ -3,8 +3,10 @@ using namespace std;
 #define TEST 100
 int main(){
     int n;
+    int count = 0;
     char arr[TEST];
     char uniq[TEST];
+    int countUniq[TEST];
     bool charSet[256] = {false};
     cout<<"enter n"<<endl;
     cin>>n;
@@ -17,11 +19,18 @@ int main(){
     }
 
     for(int i=0;i<n;i++){
+        count =0;
         char c = arr[i];
         if(charSet[c]==true){
+            countUniq[i] = count++;
             continue;
         }
         charSet[c] = true;
-        cout<<c<<endl;
+        uniq[i] = c;
     }
+
+    for(int i=0;i<n;i++){
+        cout<< countUniq[i]<<endl;
+    }
+
 }
