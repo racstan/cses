@@ -1,22 +1,36 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
+
+#define ll long long
 
 int main(){
     int n;
-    cout<<"Enter n"<<endl;
     cin>>n;
-    int* arr = new int[n];
-    if(n<=3){
-        cout<<"No Solution"<<endl;
+    //ll ans;
+    if(n==1){
+        cout<<1;
+        return 0;
+    }
+    if(n==2||n==3){
+        cout<<"NO SOLUTION";
+        return 0;
+    }
+    if(n%2==0){
+        for(int i=2;i<=n;i+=2){
+            cout<<i<<" ";
+        }
+        for(int i=1;i<n;i+=2){
+            cout<<i<<" ";
+        }
+        
     }
     else{
-        for(int i =0;i<n;i++){
-            arr[i] = i+1;
+        for(int i = n;i>=1;i-=2){
+            cout<<i<<" ";
         }
-        for(int i=0;i<n;i++){
-            cout<<arr[i]<<endl;
+        for(int i = n-1;i>1;i-=2){
+            cout<<i<<" ";
         }
-
+        
     }
-    delete[] arr;
 }
