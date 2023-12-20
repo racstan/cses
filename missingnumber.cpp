@@ -8,7 +8,7 @@ int main(){
     cin>>n;
     for(int i =1; i<n;i++){
         int a;
-        cin>>a;
+        cin>>a; 
         s+=a; 
     }
 
