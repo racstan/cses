@@ -10,7 +10,7 @@ int main(){
     ll ans = 0;
     for(int i=0;i<n;i++){
         long long s;
-        cin>>s;
+        cin>>sss;
         mx = max(mx,s);
         ans+= mx - s;
     }
