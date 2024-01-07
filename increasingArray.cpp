@@ -11,7 +11,7 @@ int main(){
     for(int i=0;i<n;i++){
         long long s;
         cin>>sss;
-        mx = max(mx,s);
+        mx = max(mx,s); 
         ans+= mx - s;
     }
     cout<<ans;
