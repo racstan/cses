@@ -12,7 +12,7 @@ int main(){
         long long s;
         cin>>sss;
         mx = max(mx,s);   
-        ans+= mx - s;
+        ans+= mx - s; 
     } 
     cout<<ans;
 }
