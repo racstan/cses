@@ -13,6 +13,6 @@ int main(){
         cin>>sss;
         mx = max(mx,s);   
         ans+= mx - s;
-    }
+    } 
     cout<<ans;
 }
