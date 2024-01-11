@@ -7,7 +7,7 @@ int main(){
     int n;
     cin>>n;
     //ll ans;
-    if(n==1){
+    if(n==1){ 
         cout<<1;
         return 0;
     }  
