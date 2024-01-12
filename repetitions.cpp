@@ -10,7 +10,7 @@ int longestRep = 1;
 int currentRep = 1;
 if(n>=1&&n<=10^6){
 for(int i=0;i<n-1;i++){
-    if(sequence[i]==sequence[i+1]){
+    if(sequence[i]==sequence[i+1]){ 
         currentRep++;
     }
     else{
