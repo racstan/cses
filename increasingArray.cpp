@@ -14,5 +14,5 @@ int main(){
         mx = max(mx,s);   
         ans+= mx - s; 
     } 
-    cout<<ans;
+    cout<<ans; 
 }
