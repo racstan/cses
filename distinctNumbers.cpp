@@ -8,7 +8,7 @@ int main(){
     unordered_set <ll> arr;
     for(ll i=0;i<n;i++){
         cin>>temp;
-        arr.insert(temp);
+        arr.insert(temp); 
     }
     cout<<arr.size();
     return 0;
