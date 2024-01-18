@@ -10,6 +10,6 @@ int main(){
         cin>>temp;
         arr.insert(temp);  
     }
-    cout<<arr.size();
+    cout<<arr.size();  
     return 0;
 } 
