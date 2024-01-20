@@ -11,6 +11,6 @@ int main(){
         cin>>a; 
         s+=a; 
     }
-
+ 
     cout<<n*(n+1)/2 - s;
 }
