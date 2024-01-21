@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ll long long
+#define ll long long 
 
 int main(){
     int n;
@@ -14,5 +14,5 @@ int main(){
         mx = max(mx,s);   
         ans+= mx - s; 
     } 
-    cout<<ans; 
-}
+    cout<<ans;  
+} 

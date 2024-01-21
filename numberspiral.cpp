@@ -14,7 +14,7 @@ int main(){
         //1 5  --> 25-1+1
         //2 5  --> 25 - 2
         if(x<y){
-            ll ans;
+            ll ans; 
             if(y%2!=0){
                 ans =(y*y)-x+1;
             }
