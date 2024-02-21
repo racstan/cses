@@ -13,4 +13,5 @@ int main(){
     }
  
     cout<<n*(n+1)/2 - s;
+    return 0;
 }
